@@ -1,0 +1,52 @@
+#signForm{
+    margin: auto;
+    margin-top: 50px;
+    height:400px;
+    width: 350px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#name, #amount, #email, #address {
+    height: 25px;
+    width: 200px;
+}
+#submit{
+    background-color: #008080;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    margin-top: 20px;
+    
+}
+#submit:hover{
+   background-color:cadetblue;
+   cursor: pointer;
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover {
+    
+    color: rgb(22, 206, 234);
+}
