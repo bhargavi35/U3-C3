@@ -5,7 +5,7 @@ async function getItem() {
 
   let data = await res.json();
 
-  append=data.vouchers;
+  append(data[0].vouchers;
   console.log(data);
 }
 getItem();
